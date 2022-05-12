@@ -64,6 +64,7 @@ message VirtualMachineCustomSize {
 	int32 cpuCount = 1;
 	int32 memoryMB = 2;
 	int32 gpuCount = 3;
+	string gpuName = 4;
 }
 
 enum PowerState {
