@@ -32,7 +32,7 @@ message Disk {
 }
 
 message SharedFolder {
-	// reference to the host folder managed by storage
+	// reference to the shared folder managed by storage
 	string sharedfolderreference = 1;
 	string guestmountpath = 2;
 }

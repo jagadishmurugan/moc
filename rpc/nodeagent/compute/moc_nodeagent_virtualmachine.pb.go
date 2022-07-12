@@ -209,7 +209,7 @@ func (m *Disk) GetDiskname() string {
 }
 
 type SharedFolder struct {
-	// reference to the host folder managed by storage
+	// reference to the shared folder managed by storage
 	Sharedfolderreference string   `protobuf:"bytes,1,opt,name=sharedfolderreference,proto3" json:"sharedfolderreference,omitempty"`
 	Guestmountpath        string   `protobuf:"bytes,2,opt,name=guestmountpath,proto3" json:"guestmountpath,omitempty"`
 	XXX_NoUnkeyedLiteral  struct{} `json:"-"`
