@@ -29,9 +29,11 @@ message SharedFolder {
 	bool readOnly = 5;
 	string path = 6;
 	string virtualmachineName = 7;
-	Status status = 8;
-	Entity entity = 9;
-	Tags tags = 10;
+	string guestMountPath = 8;
+	string mountTag = 9;
+	Status status = 10;
+	Entity entity = 11;
+	Tags tags = 12;
 }
 
 service SharedFolderAgent {
